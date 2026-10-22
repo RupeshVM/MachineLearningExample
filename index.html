@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>90s Mario Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <h1>90s Mario</h1>
+      <p class="hint">Arrow keys to move, Space to jump, collect all coins!</p>
+      <canvas id="game" width="960" height="540" aria-label="Mario game"></canvas>
+      <div class="hud">
+        <span id="coins">Coins: 0</span>
+        <span id="lives">Lives: 3</span>
+        <span id="status">Ready!</span>
+      </div>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
